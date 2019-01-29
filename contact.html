@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Contact</title>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Teddy Passias</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,18 +33,20 @@
           >
           <a class="nav-item nav-link" href="#">Features</a>
           <a class="nav-item nav-link" href="#">Pricing</a>
-          <a
-            class="nav-item nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Disabled</a
-          >
         </div>
       </div>
     </nav>
 
     <form>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input
+          type="name"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Your name..."
+        />
+      </div>
       <div class="form-group">
         <label for="exampleFormControlInput1">Email address</label>
         <input
@@ -54,26 +56,7 @@
           placeholder="name@example.com"
         />
       </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
-        <select class="form-control" id="exampleFormControlSelect1">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect2">Example multiple select</label>
-        <select multiple class="form-control" id="exampleFormControlSelect2">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
+
       <div class="form-group">
         <label for="exampleFormControlTextarea1">Example textarea</label>
         <textarea
@@ -82,6 +65,7 @@
           rows="3"
         ></textarea>
       </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </body>
 </html>
