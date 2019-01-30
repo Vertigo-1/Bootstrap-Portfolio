@@ -26,11 +26,18 @@ html {
 }
 
 .navbar {
-  background-color: aqua;
+  border-bottom: 3px solid #cccccc;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 
-.card {
-  width: 80%;
+.card-header {
+  background-color: white;
+  color: #4aaaa5;
+  font-size: 40px;
+}
+
+.btn {
+  background-color: #4aaaa5;
 }
 
 .portfolio-item {
@@ -64,9 +71,6 @@ html {
   }
   .about-image {
     width: 100%;
-  }
-  .name-logo {
-    width: 40%;
   }
   .btn {
     width: 50%;
