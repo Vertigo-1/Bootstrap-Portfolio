@@ -11,37 +11,99 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href=".\assets\css\style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Teddy Passias</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"
-            >Home <span class="sr-only">(current)</span></a
-          >
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a
-            class="nav-item nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Disabled</a
-          >
+    <div class="bg">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+        <a class="navbar-brand">Teddy Passias</a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="card">
+        <div class="card-header brown-text main-text-head almond-background">
+          <strong>About Me</strong>
+        </div>
+        <div class="card-body ltblue-background">
+          <div class="col-md-12">
+            <img
+              class="about-image"
+              src="https://media.licdn.com/dms/image/C4E03AQEG-Ux-xLcexQ/profile-displayphoto-shrink_200_200/0?e=1553126400&amp;v=beta&amp;t=wrR5QyOQru2HPTcHHD2OnF32jWP0XpuHVMF27y11p0I"
+              align="left"
+              width="20%"
+            />
+            <p>
+              Hi, my name is Teddy. I'm Greek, and always looking for new
+              experiences. My mantra is YOLO, you only live once. Skydiving,
+              mountain climbing, hiking, and more. My YOLO list for 2019 is as
+              follows: snowboarding, paragliding and more mountain climbing.
+              Growing up eating greek food most of the time has turned me into a
+              foodie and I'm thankful for that!
+            </p>
+
+            <p>
+              I used to fix computers since age 10. I didn't have a good
+              experience with technical support so I took it upon myself to
+              learn troubleshooting steps. The computer manual was there and I
+              started reading. Fast forward a couple of years and I graduated
+              with Computer Science degree at Queens College.
+            </p>
+
+            <p>
+              Finding a job wasn't easy... Entry level positions with 3 years
+              experience required while unreasonable were what I could find.
+              After a few months of searching I finally found a technical
+              support position at Columbia Psychiatry. It was a volunteer job
+              but I was greatful to earn some experiance.
+            </p>
+
+            <p>
+              After 6 months, I was offered a job and from there I was working
+              above my pay grade. Building image servers, MBAM servers and
+              assistiing with administrative tasks. I was up for anything. I was
+              very lucky that there were co-workers that appreciated my help and
+              would help me in return. Unfortunately, opportunities for
+              advancement within were not readily available and I had no choice
+              but to look for another job. Finally, within about 2 months I
+              recieved three offers for an administrator positions. I currently
+              work as a systems engineer/administrator for a Managed Service
+              Provider. We manage over 180 clients, mainly in finance.
+            </p>
+          </div>
         </div>
       </div>
-    </nav>
+
+      <footer class="page-footer font-small blue pt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">Copyright ©</div>
+        <!-- Copyright -->
+      </footer>
+    </div>
   </body>
 </html>

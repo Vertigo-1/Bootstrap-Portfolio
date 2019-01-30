@@ -1,0 +1,71 @@
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+}
+
+body,
+html {
+  height: 100%;
+}
+.bg {
+  /* image used */
+  background-image: url("../media/white-waves.png");
+
+  /* Full height */
+  height: 100%;
+}
+.container {
+  width: 100%;
+  background-color: white;
+}
+
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 500px;
+  margin: auto auto 1em;
+}
+
+.caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  position: absolute;
+}
+
+@media only screen and (max-width: 940px) {
+  .about-image {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .custom-nav,
+  .portfolio-main,
+  .contact-main {
+    width: 95vw;
+  }
+  .about-image {
+    width: 100%;
+  }
+  .name-logo {
+    width: 40%;
+  }
+  .btn {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-image {
+    width: 60%;
+  }
+  .btn {
+    width: 90%;
+  }
+}
