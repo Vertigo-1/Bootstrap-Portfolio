@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-hw2
+Originally for Homework #2, this site has been updated.
